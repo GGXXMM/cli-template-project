@@ -1,6 +1,7 @@
 <template>
     <div class="layout-wrapper">
         <Topbar />
+        <Sidebar />
         <div class="layout-content">
             <router-view />
         </div>
@@ -9,6 +10,7 @@
 
 <script setup>
 import Topbar from '/@/components/common/topbar.vue'
+import Sidebar from '/@/components/common/sidebar.vue'
 </script>
 
 <style lang="scss" scoped>
