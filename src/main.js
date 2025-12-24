@@ -1,12 +1,12 @@
 import { createApp } from 'vue'
-import ElementPlus from 'element-plus'
+import Antd from 'ant-design-vue'
 import router from '/@/router'
 import App from './App.vue'
-import 'element-plus/dist/index.css'
+import 'ant-design-vue/dist/reset.css'
 import '/@/styles/index.scss'
 
 const app = createApp(App)
 
-app.use(ElementPlus)
 app.use(router)
+app.use(Antd)
 app.mount('#app')

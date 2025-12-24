@@ -7,7 +7,7 @@ import path from 'path'
 export default defineConfig({
   plugins: [vue()],
   server: {
-    port: 8081,
+    port: 3000,
     open: true
   },
   resolve: {

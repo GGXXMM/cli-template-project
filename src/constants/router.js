@@ -2,5 +2,7 @@
 export const ERouterName = {
     LOGIN: 'login',
     REGISTER: 'register',
-    USER: 'user'
+    WORKBENCH: 'workbench',
+    NOT_FOUND: '404',
+    SERVER_ERROR: '500',
 }
